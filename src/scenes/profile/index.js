@@ -5,7 +5,8 @@ import { View, Text, StyleSheet } from 'react-native';
 // create a component
 class Profile extends Component {
     static navigationOptions = {
-        title: 'Meu Perfil'
+        title: 'Meu Perfil',
+        headerTitleStyle: { alignSelf: 'center' } //TODO: Foi mais para direita um pouco
     }
 
     render() {
